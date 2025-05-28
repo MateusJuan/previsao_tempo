@@ -23,7 +23,7 @@ export default function App() {
       let location = await Location.getCurrentPositionAsync({});
       const { latitude, longitude } = location.coords;
 
-      fetch(`https://api.hgbrasil.com/weather?key=179bfe52&lat=${latitude}&lon=${longitude}`)
+      fetch(`https://api.hgbrasil.com/weather?key=8d5f2c8d&lat=${latitude}&lon=${longitude}`)
         .then((response) => response.json())
         .then((data) => {
           if (data && data.results) {
