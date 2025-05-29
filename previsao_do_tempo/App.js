@@ -21,7 +21,7 @@ export default function App() {
       setLoading(true);
       setErrorMsg(null);
       const response = await fetch(
-        `https://api.hgbrasil.com/weather?key=8d5f2c8d&city_name=${encodeURIComponent(city)}`
+        `https://api.hgbrasil.com/weather?key=eeee6847&city_name=${encodeURIComponent(city)}`
       );
       const data = await response.json();
       if (data && data.results && !data.error) {
