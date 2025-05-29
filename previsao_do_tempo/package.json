@@ -16,6 +16,7 @@
     "expo-location": "~18.1.5",
     "expo-status-bar": "~2.2.3",
     "expo-svg-uri": "^2.0.0",
+    "previsao_do_tempo": "file:",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-native": "0.79.2",

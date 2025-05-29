@@ -1,7 +1,14 @@
 {
   "expo": {
     "name": "Previsão do Tempo",
-    "slug": "previsao_do_tempo",
-    "version": "1.0.0"
+    "slug": "Previsão do Tempo",
+    "version": "1.0.0",
+    "icon":"./img/icone.png",
+    "orientation": "portrait",
+    "splash": {
+      "image": "./img/icone.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    }
   }
 }
