@@ -1,14 +1,22 @@
 {
   "expo": {
-    "name": "Previsão do Tempo",
-    "slug": "Previsão do Tempo",
+    "name": "Previsao do Tempo",
+    "slug": "previsao-do-tempo",
     "version": "1.0.0",
-    "icon":"./img/icone.png",
+    "icon": "./img/icone.png",
     "orientation": "portrait",
+    "android": {
+      "package": "com.matewxj.previsaodotempo"
+    },
     "splash": {
       "image": "./img/icone.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e4d97856-d97a-4451-a7ea-10c3454432ed"
+      }
     }
   }
 }
